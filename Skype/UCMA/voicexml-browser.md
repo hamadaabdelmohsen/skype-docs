@@ -1,4 +1,4 @@
-﻿---
+---
 description: Learn about the VoiceXML browser class for UCMA 5.0.
 title: VoiceXML browser
 TOCTitle: VoiceXML browser
@@ -40,4 +40,3 @@ In a VoiceXML session, a **Browser** instance may perform any of the following o
 - Generate events with information about the session.
 
 - Exit the VoiceXML page and end the session.
-
