@@ -7,15 +7,13 @@ description: groupMemberships represents a collection of all the group membershi
 
  _**Applies to:** Skype for Business 2015_
 
-
 Represents a collection of all the [group](group_ref.md) memberships for a particular group
-            
 
 ## Web Link
-<a name = "sectionSection0"> </a>
+
+<a name = "sectionSection0"></a>
 
 For more on web links, see [Web links](WebLinks.md).
-
 
 |**Name**|**Description**|
 |:-----|:-----|
@@ -24,13 +22,9 @@ For more on web links, see [Web links](WebLinks.md).
 
 ### Properties
 
-
-
 None
 
 ### Links
-
-
 
 This resource can have the following relationships.
 
@@ -41,42 +35,29 @@ This resource can have the following relationships.
 
 ### Azure Active Directory scopes for online applications
 
-
-
 The user must have at least one of these scopes for operations on the resource to be allowed.
+
 |**Scope**|**Permission**|**Description**|
 |:-----|:-----|:-----|
 |Contacts.ReadWrite|Read/write Skype user contacts and groups|Allows the app to read and write Skype user contacts and groups|
 
 ## Operations
 
-
-
 <a name="sectionSection2"></a>
 
 ### GET
-
-
-
 
 Returns all group memberships for a particular group.
 
 #### Request body
 
-
-
 None
 
-
 #### Response body
-
-
 
 The response from a GET request contains the properties and links shown in the Properties and Links sections at the top of this page.
 
 #### Synchronous errors
-
-
 
 The errors below (if any) are specific to this resource. Generic errors that can apply to any resource are covered in [Generic synchronous errors](GenericSynchronousErrors.md).
 
@@ -92,15 +73,9 @@ The errors below (if any) are specific to this resource. Generic errors that can
 
 #### Examples
 
-
-
-
 #### JSON Request
 
-
-
-
-```
+```json
 Get https://fe1.contoso.com:443/ucwa/v1/applications/192/groups/group/groupMemberships HTTP/1.1
 Authorization: Bearer cwt=PHNhbWw6QXNzZXJ0aW9uIHhtbG5...uZm8
 Host: fe1.contoso.com
@@ -108,13 +83,11 @@ Accept: application/json
 
 ```
 
-
 #### JSON Response
 
-
-
 This sample is given only as an illustration of response syntax. The semantic content is not guaranteed to correspond to a valid scenario.
-```
+
+```json
 HTTP/1.1 200 OK
 Content-Type: application/json
 Content-Length: 525
@@ -152,13 +125,9 @@ Content-Length: 525
 }
 ```
 
-
 #### XML Request
 
-
-
-
-```
+```xml
 Get https://fe1.contoso.com:443/ucwa/v1/applications/192/groups/group/groupMemberships HTTP/1.1
 Authorization: Bearer cwt=PHNhbWw6QXNzZXJ0aW9uIHhtbG5...uZm8
 Host: fe1.contoso.com
@@ -166,13 +135,11 @@ Accept: application/xml
 
 ```
 
-
 #### XML Response
 
-
-
 This sample is given only as an illustration of response syntax. The semantic content is not guaranteed to correspond to a valid scenario.
-```
+
+```xml
 HTTP/1.1 200 OK
 Content-Type: application/xml
 Content-Length: 701
@@ -188,5 +155,3 @@ Content-Length: 701
   </resource>
 </resource>
 ```
-
-
