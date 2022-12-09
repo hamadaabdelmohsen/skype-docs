@@ -17,7 +17,6 @@ dev_langs:
 
 This is the actual bandwidth applied to the given send side stream given various policy settings (TURN, API, SDP, Policy Server, and so on). This is not to be confused with the effective bandwidth because there can be a lower effective bandwidth based on the bandwidth estimate. This is basically the maximum bandwidth the send stream can take barring limits imposed by the bandwidth estimate.
  
-
 ## Element information
 
 <table>
@@ -40,7 +39,6 @@ This is the actual bandwidth applied to the given send side stream given various
 </tr>
 </tbody>
 </table>
-
 
 ## Definition
 

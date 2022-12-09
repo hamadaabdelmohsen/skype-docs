@@ -149,7 +149,7 @@
     <Compile Include="IOCHelper.cs" />
     <Compile Include="Job\AdhocMeetingToken.cs" />
     <Compile Include="Job\AnonymousToken.cs" />
-    <Compile Include="Job\GetAdhocMeetingResouceJob.cs" />
+    <Compile Include="Job\GetAdhocMeetingResourceJob.cs" />
     <Compile Include="Job\GetAnonTokenJob.cs" />
     <Compile Include="Job\JobInput.cs" />
     <Compile Include="Job\JobMetaData.cs" />
