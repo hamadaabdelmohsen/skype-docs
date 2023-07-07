@@ -26,11 +26,13 @@
 	   "ms.date": "04/27/2018"
     },
 	 "fileMetadata": {
+"ms.subservice": {
+"WebSDK/**.md": "sdk",
+"SDN/**.md": "sdn",
+"UCWA/**.md": "web-api"
+},
  	"ms.technology": 
        { 
-        "WebSDK/**.md" : "sdk",
-		"UCWA/**.md" : "web-api",
-		"SDN/**.md" : "sdn"
        }
 	},
     "externalReference": [
