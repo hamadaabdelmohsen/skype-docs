@@ -29,20 +29,18 @@ An endpoint (represented as a [UserEndpoint](/dotnet/api/microsoft.rtc.collabora
 
 An endpoint can use this functionality to:
 
-
 - Initiate and manage a conversation (the [GetConversations()](https://msdn.microsoft.com/library/hh349978\(v=office.16\)) method).
 
 - Schedule and manage conferences offline (the [ConferenceServices](https://msdn.microsoft.com/library/hh161814\(v=office.16\)) property).
 
-- Subscribe to the presence of remote presentities (the [PresenceServices](https://msdn.microsoft.com/library/hh384331\(v=office.16\)) property.
+- Subscribe to the presence of remote presentities (the [PresenceServices](https://msdn.microsoft.com/library/hh384331\(v=office.16\))) property.
 
 - Publish presence for the endpoint owner (the [PresenceServices](https://msdn.microsoft.com/library/hh384331\(v=office.16\)) and [LocalOwnerPresence](https://msdn.microsoft.com/library/hh348476\(v=office.16\)) properties).
 
 - Manage contacts and groups (the [ContactGroupServices](https://msdn.microsoft.com/library/hh383122\(v=office.16\)) property).
-    
+
 > [!IMPORTANT]
 > The **ContactGroupServices** property is present only on a **UserEndpoint** object. For more information, see [Endpoint services](endpoint-services.md).
-
 
 The following illustration shows the relationships among the principal objects of the architecture as well as the personas (see [Personas](personas.md)) involved in each type of object. The numbers shown between two objects indicate the kind of pairing between the two objects that can occur. For example, one local endpoint can be associated with zero or more **Conversation** objects, but can be associated with only one Presence Subscription object.
 
@@ -111,3 +109,4 @@ This section includes the following topics:
 
 - [Microsoft.Rtc.Collaboration Namespace](/dotnet/api/microsoft.rtc.collaboration?view=ucma-api)
 - [Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml Namespace](/dotnet/api/Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml&preserve-view=true)
+
