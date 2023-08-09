@@ -11,6 +11,6 @@ description: This section describes the different UI controls available.
 This section describes the different UI controls available.
 
 
-- [Conversation Control(s)](PTUIControlsconversationcontrol)
+- [Conversation Control(s)](PTUIControlsconversationcontrol.md)
 
 
