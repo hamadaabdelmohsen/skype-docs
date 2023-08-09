@@ -65,7 +65,7 @@
         - name: Downloading and running samples
           href: WebSDK/docs/DownloadRunSamples.md
         - name: Skype Web SDK API product keys
-          href: WebSDK/docs/APIProductKeys.md
+          href: WebSDK/docs/apiproductkeys
       - name: Developing applications
         items:
         - name: Overview

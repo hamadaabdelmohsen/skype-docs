@@ -31,7 +31,7 @@ Add a reference to the bootstrapper to your HTML file.
 <script src="https://swx.cdn.skype.com/shared/v/1.2.15/SkypeBootstrap.min.js"></script>
 ```
 
-Download the SDK package. In the following snippet, we are using public preview API keys. You can see all available API keys by reading [Skype Web SDK Production Use Capabilities](APIProductKeys.md)
+Download the SDK package. In the following snippet, we are using public preview API keys. You can see all available API keys by reading [Skype Web SDK Production Use Capabilities](apiproductkeys)
 
 ```js
 

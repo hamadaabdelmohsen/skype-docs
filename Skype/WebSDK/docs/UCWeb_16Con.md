@@ -19,7 +19,7 @@ description: Table of contents
   - [Getting started](GettingStarted.md)
     - [Release Notes](ReleaseNotes.md)
     - [Downloading and running samples](DownloadRunSamples.md)
-    - [Skype Web SDK API product keys](APIProductKeys.md)
+    - [Skype Web SDK API product keys](apiproductkeys)
 
   - [Developing applications](DevelopApplications.md)
     - [Architecture](Architecture.md)

@@ -13,7 +13,7 @@ ms.date: 03/30/2022
 
 The Skype Web SDK [Conversation Control](/skype-sdk/websdk/docs/conversationcontrol) object contains the logic and presentation layer that encapsulates IM and A/V conversations in one object. Use it when you want Skype Web SDK to draw the conversation UI for you. It can be implemented in your webpage with as few as three Skype Web SDK API calls. If you want the control to activate on incoming conversation invitations, you will need to add an event handler for changes in the self participant chat channel.
 
-To learn about the capabilities of the Conversation Control for each version of the SDK, see [Skype Web SDK Production Use Capabilities](/skype-sdk/websdk/docs/apiproductkeys.md).
+To learn about the capabilities of the Conversation Control for each version of the SDK, see [Skype Web SDK Production Use Capabilities](/skype-sdk/websdk/docs/apiproductkeys).
 
 Figure 1 shows the [Conversation Control](/skype-sdk/websdk/docs/conversationcontrol) in action. The Microsoft Edge browser is shown in this example, but you can use any other supported browser.
 
@@ -34,7 +34,7 @@ The below sections walk through the process to initialize the Skype Web SDK API 
 - Declare a structure to hold the API keys
 
     > [!IMPORTANT]
-    > The API key values shown in this example are the literal values that you must use in your application. If you use any other strings, your application will not initialize the API endpoint.Change the value of the `version` key to uniquely identify your app. See [Skype Web SDK Production Use Capabilities](/skype-sdk/websdk/docs/apiproductkeys.md) for a list of supported API keys.
+    > The API key values shown in this example are the literal values that you must use in your application. If you use any other strings, your application will not initialize the API endpoint.Change the value of the `version` key to uniquely identify your app. See [Skype Web SDK Production Use Capabilities](/skype-sdk/websdk/docs/apiproductkeys) for a list of supported API keys.
 
     ``` js
     var config = {

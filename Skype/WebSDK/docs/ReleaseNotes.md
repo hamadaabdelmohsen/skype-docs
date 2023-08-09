@@ -11,9 +11,9 @@ description: Provides an overview of the Skype Web SDK's release notes and links
 
 **Additional Resources**
 
-- [Preview and Production API Keys](APIProductKeys.md)
-- [Capabilities and Support for Production Use and Preview Use](APIProductKeys.md)
-- [Supported platforms](APIProductKeys.md)
+- [Preview and Production API Keys](apiproductkeys)
+- [Capabilities and Support for Production Use and Preview Use](apiproductkeys)
+- [Supported platforms](apiproductkeys)
 - [Updated Plugins for Windows and Mac](GettingStarted.md)  (Supported only against SfB 2015)
 - [Samples for SfB onprem and SfB online](https://github.com/OfficeDev/skype-web-sdk-samples)
 - [Release Software License Terms](TermsOfService.md)

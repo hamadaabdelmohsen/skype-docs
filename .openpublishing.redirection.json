@@ -46,7 +46,7 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "Skype/WebSDK/APIProductKeys.md",
+            "source_path": "Skype/WebSDK/apiproductkeys",
             "redirect_url": "/skype-sdk/websdk/docs/apiproductkeys",
             "redirect_document_id": false
         },
