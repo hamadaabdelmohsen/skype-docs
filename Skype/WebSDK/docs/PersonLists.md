@@ -41,5 +41,5 @@ A group of persons set to a specific privacy relationship are represented by a G
 #### Concepts
 
 
-[Get a person and listen for availability](ListenForAvailability.md)  
+[Get a person and listen for availability](listenforavailability.md)  
 [Manage persons and groups](ManagePersonsAndGroups.md)

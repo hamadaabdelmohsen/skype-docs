@@ -72,4 +72,4 @@ groupSearchQuery.getMore().then(null, function (results) {
 
 ## See also
 
-[Get a person and listen for availability](/skype-sdk/websdk/docs/listenforavailability.md)
+[Get a person and listen for availability](/skype-sdk/websdk/docs/listenforavailability)

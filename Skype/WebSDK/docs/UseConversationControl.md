@@ -11,17 +11,17 @@ ms.date: 03/30/2022
 > [!NOTE]
 > The Audio and Video components of the conversation control are available as public preview.
 
-The Skype Web SDK [Conversation Control](/skype-sdk/websdk/docs/conversationcontrol.md) object contains the logic and presentation layer that encapsulates IM and A/V conversations in one object. Use it when you want Skype Web SDK to draw the conversation UI for you. It can be implemented in your webpage with as few as three Skype Web SDK API calls. If you want the control to activate on incoming conversation invitations, you will need to add an event handler for changes in the self participant chat channel.
+The Skype Web SDK [Conversation Control](/skype-sdk/websdk/docs/conversationcontrol) object contains the logic and presentation layer that encapsulates IM and A/V conversations in one object. Use it when you want Skype Web SDK to draw the conversation UI for you. It can be implemented in your webpage with as few as three Skype Web SDK API calls. If you want the control to activate on incoming conversation invitations, you will need to add an event handler for changes in the self participant chat channel.
 
-To learn about the capabilities of the Conversation Control for each version of the SDK, see [Skype Web SDK Production Use Capabilities](/skype-sdk/websdk/docs/apiproductkeys.md).
+To learn about the capabilities of the Conversation Control for each version of the SDK, see [Skype Web SDK Production Use Capabilities](/skype-sdk/websdk/docs/apiproductkeys).
 
-Figure 1 shows the [Conversation Control](/skype-sdk/websdk/docs/conversationcontrol.md) in action. The Microsoft Edge browser is shown in this example, but you can use any other supported browser.
+Figure 1 shows the [Conversation Control](/skype-sdk/websdk/docs/conversationcontrol) in action. The Microsoft Edge browser is shown in this example, but you can use any other supported browser.
 
 **Figure 1. The Skype Web Conversation Control**
 
 ![Skype Web SDK Conversation Control](../images/8144ea64-e3f3-4880-9eb6-7e332fab9d4e.PNG)
 
-This topic takes you through the steps to add a [Conversation Control](/skype-sdk/websdk/docs/conversationcontrol.md) to you web app. Upon completion of these tasks, your app will let a user sign in to Skype for Business on premise, initiate a new IM conversation with one or more people, and accept invitations to join an IM conversation.
+This topic takes you through the steps to add a [Conversation Control](/skype-sdk/websdk/docs/conversationcontrol) to you web app. Upon completion of these tasks, your app will let a user sign in to Skype for Business on premise, initiate a new IM conversation with one or more people, and accept invitations to join an IM conversation.
 
 <a name="setup"> </a>
 
@@ -34,7 +34,7 @@ The below sections walk through the process to initialize the Skype Web SDK API 
 - Declare a structure to hold the API keys
 
     > [!IMPORTANT]
-    > The API key values shown in this example are the literal values that you must use in your application. If you use any other strings, your application will not initialize the API endpoint.Change the value of the `version` key to uniquely identify your app. See [Skype Web SDK Production Use Capabilities](/skype-sdk/websdk/docs/apiproductkeys.md) for a list of supported API keys.
+    > The API key values shown in this example are the literal values that you must use in your application. If you use any other strings, your application will not initialize the API endpoint.Change the value of the `version` key to uniquely identify your app. See [Skype Web SDK Production Use Capabilities](/skype-sdk/websdk/docs/apiproductkeys) for a list of supported API keys.
 
     ``` js
     var config = {
@@ -45,7 +45,7 @@ The below sections walk through the process to initialize the Skype Web SDK API 
 
     ```
 
-- Initialize the API endpoint and get the **UIApplicationInstance** that provides the [Conversation Control](/skype-sdk/websdk/docs/conversationcontrol.md).
+- Initialize the API endpoint and get the **UIApplicationInstance** that provides the [Conversation Control](/skype-sdk/websdk/docs/conversationcontrol).
 
     ``` js
     Skype.initialize({ apiKey: config.apiKeyCC }, function (api) {
@@ -68,7 +68,7 @@ app.conversationsManager.conversations.added(function (conversation) {
 
 Inside of the previous callback method, add a callback to detect when one of the modalities in the conversation becomes `'Notified'`.
 
-When the state of the channel is changed to `'Notified'`, an invitation to has been received. To show the [Conversation Control](/skype-sdk/websdk/docs/conversationcontrol.md), call the **renderConversation** method of the `api` object passed as a parameter to the callback of the **initialize** function.
+When the state of the channel is changed to `'Notified'`, an invitation to has been received. To show the [Conversation Control](/skype-sdk/websdk/docs/conversationcontrol), call the **renderConversation** method of the `api` object passed as a parameter to the callback of the **initialize** function.
 
 > [!NOTE]
 > There is a known issue where adding modalities other than 'Chat' to the 'modalities' array in the second argument of **renderConversation** causes the Conversation Control to fail to be rendered. Audio and video can still be started later so it is advised to only pass the array `['Chat']` as the value of the modalities property on the object passed as the second argument of **renderConversation**.
@@ -126,8 +126,8 @@ The following sample shows you how to render a Conversation Control to represent
 When the user clicks a button called 'callButton', the code takes the following steps:
 
 - Takes the sip addresses specified in the text inputs sip1 and sip2 and...
-- Creates a container to host the [Conversation Control](/skype-sdk/websdk/docs/conversationcontrol.md) and adds it as a child of an element called 'conversationContainer.'
-- Renders the [Conversation Control](/skype-sdk/websdk/docs/conversationcontrol.md) in the new container by calling **renderConversation** and passing the hosting container, desired chat modality, and the array of invitee SIP addresses.
+- Creates a container to host the [Conversation Control](/skype-sdk/websdk/docs/conversationcontrol) and adds it as a child of an element called 'conversationContainer.'
+- Renders the [Conversation Control](/skype-sdk/websdk/docs/conversationcontrol) in the new container by calling **renderConversation** and passing the hosting container, desired chat modality, and the array of invitee SIP addresses.
 
 ``` js
 var conversationsManager = app.conversationsManager;
@@ -223,4 +223,4 @@ api.renderConversation(div, {
 
 ## See also
 
-[Conversation Control](/skype-sdk/websdk/docs/conversationcontrol.md)
+[Conversation Control](/skype-sdk/websdk/docs/conversationcontrol)
