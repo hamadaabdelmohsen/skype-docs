@@ -126,7 +126,7 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "Skype/WebSDK/ListenForAvailability.md",
+            "source_path": "Skype/WebSDK/listenforavailability",
             "redirect_url": "/skype-sdk/websdk/docs/listenforavailability",
             "redirect_document_id": false
         },

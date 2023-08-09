@@ -31,7 +31,7 @@ description: Table of contents
     - [Retrieve the API entry point and sign in a user](GetAPIEntrySignIn.md)
     - [Show a person's information](ShowPersonInfo.md)
     - [Search for persons and distribution groups](SearchForPersonsAndGroups.md)
-    - [Get a person and listen for availability](ListenForAvailability.md)
+    - [Get a person and listen for availability](listenforavailability)
     - [Start a conversation](StartConversation.md)
     - [Respond to a conversation invitation](RespondToInvitation.md)
     - [Join an existing meeting](JoinMeeting.md)
