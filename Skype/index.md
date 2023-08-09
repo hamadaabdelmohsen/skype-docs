@@ -21,7 +21,7 @@ Use the Skype network to optimize communications and to build better relationshi
 ## Related sites
 
 - [Skype](https://www.skype.com/en/)
-- [Skype Developer Platform](/skype-sdk/skypedeveloperplatform.md)
+- [Skype Developer Platform](/skype-sdk/skypedeveloperplatform)
 - [Introducing Skype for Business](https://www.skype.com/en/blogs/)
 - [Skype for Business Server 2015](/SkypeForBusiness/skype-for-business-server-2015)
 - [Skype for Business Server 2019](/SkypeForBusiness/skype-for-business-server-2019)
