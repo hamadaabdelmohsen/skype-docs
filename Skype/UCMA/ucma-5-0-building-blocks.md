@@ -109,5 +109,5 @@ This section includes the following topics:
 
 ## See also
 
-- [Microsoft.Rtc.Collaboration Namespace](/dotnet/api/microsoft.rtc.collaboration&preserve-view=true)
+- [Microsoft.Rtc.Collaboration Namespace](/dotnet/api/microsoft.rtc.collaboration?view=ucma-api)
 - [Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml Namespace](/dotnet/api/Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml&preserve-view=true)

@@ -21,5 +21,5 @@ The following topics describe the sample applications that are shipped with the 
 
 ## See also
 
-- [Microsoft.Rtc.Collaboration Namespace](/dotnet/api/microsoft.rtc.collaboration&preserve-view=true)
+- [Microsoft.Rtc.Collaboration Namespace](/dotnet/api/microsoft.rtc.collaboration?view=ucma-api)
 - [Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml Namespace](/dotnet/api/Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml&preserve-view=true)
