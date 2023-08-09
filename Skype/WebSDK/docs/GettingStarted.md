@@ -42,7 +42,7 @@ Add a reference to the bootstrapper to your client application's HTML file by in
 <script src="https://swx.cdn.skype.com/shared/v/1.2.35/SkypeBootstrap.min.js"></script> 
 ```
 
-Then initialize the bootstrapper with the appropriate [API key](apiproductkeys) as in the following example code:
+Then initialize the bootstrapper with the appropriate [API key](/skype-sdk/websdk/docs/apiproductkeys) as in the following example code:
 
 ```js
 // Reference to SkypeBootstrap.min.js
