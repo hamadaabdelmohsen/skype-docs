@@ -69,4 +69,4 @@ groupSearchQuery.getMore().then(null, function (results) {
 
 ## See also
 
-- [Get a person and listen for availability](listenforavailability)
+- [Get a person and listen for availability](listenforavailability.md)
