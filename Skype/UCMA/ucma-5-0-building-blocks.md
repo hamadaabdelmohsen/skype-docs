@@ -25,7 +25,7 @@ Each of the layers shown in the illustration is described in [UCMA 5.0 details](
 
 In UCMA 5.0, the entry point class is [CollaborationPlatform](/dotnet/api/microsoft.rtc.collaboration.collaborationplatform&preserve-view=true). An application can create multiple CollaborationPlatform instances, and each platform instance can host multiple endpoints.
 
-An endpoint (represented as a [UserEndpoint](/dotnet/api/microsoft.rtc.collaboration.userendpoint&preserve-view=true) or [ApplicationEndpoint](/dotnet/api/microsoft.rtc.collaboration.applicationendpoint&preserve-view=true) instance) acts as a gateway to communication and collaboration functionality in , providing access through its methods and properties to the classes that implement these functionalities.
+An endpoint (represented as a [UserEndpoint](/dotnet/api/microsoft.rtc.collaboration.userendpoint&preserve-view=true) or [ApplicationEndpoint](/skype-sdk/ucma/user-endpoints-and-application-endpoints#applicationendpoint) instance) acts as a gateway to communication and collaboration functionality in , providing access through its methods and properties to the classes that implement these functionalities.
 
 An endpoint can use this functionality to:
 

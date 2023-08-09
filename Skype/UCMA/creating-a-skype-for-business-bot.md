@@ -39,7 +39,7 @@ Some steps of this procedure are described in [Creating a generic bot](creating-
 
 ## Create a trusted application and a trusted application endpoint for the UC bot
 
-In typical production scenarios, your bot will run on an [ApplicationEndpoint](/dotnet/api/microsoft.rtc.collaboration.applicationendpoint&preserve-view=true) instance. You will need to create a trusted application and a trusted application endpoint in the Skype for Business environment.
+In typical production scenarios, your bot will run on an [ApplicationEndpoint](/skype-sdk/ucma/user-endpoints-and-application-endpoints#applicationendpoint) instance. You will need to create a trusted application and a trusted application endpoint in the Skype for Business environment.
 
 If your Skype for Business Server is not set up for provisioning UCMA 5.0 applications, see [Activating a UCMA 5.0 trusted application](activating-a-ucma-5-0-trusted-application.md).
 

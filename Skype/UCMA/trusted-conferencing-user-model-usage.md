@@ -21,7 +21,7 @@ This topic provides the details of using the trusted conferencing user model in 
 
 1.  Create and start a [CollaborationPlatform](/dotnet/api/microsoft.rtc.collaboration.collaborationplatform&preserve-view=true) instance.
 
-2.  Create and establish an [ApplicationEndpoint](/dotnet/api/microsoft.rtc.collaboration.applicationendpoint&preserve-view=true) instance.
+2.  Create and establish an [ApplicationEndpoint](/skype-sdk/ucma/user-endpoints-and-application-endpoints#applicationendpoint) instance.
 
 3.  Create a [Conversation](https://msdn.microsoft.com/library/hh349224\(v=office.16\)) instance.
 
@@ -88,7 +88,7 @@ private void PlatformStartupCompleted(IAsyncResult result)
 
 ## Establish an ApplicationEndpoint instance
 
-The application then establishes an [ApplicationEndpoint](/dotnet/api/microsoft.rtc.collaboration.applicationendpoint&preserve-view=true) instance.
+The application then establishes an [ApplicationEndpoint](/skype-sdk/ucma/user-endpoints-and-application-endpoints#applicationendpoint) instance.
 
 > [!NOTE]
 > The variables shown as parameters to the [ApplicationEndpointSettings()](https://msdn.microsoft.com/library/hh382372(v=office.16)) constructor in the following example must be set to appropriate values before they are used.
