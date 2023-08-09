@@ -239,7 +239,7 @@
           - name: Overview
             href: WebSDK/docs/PTUIControls.md        
           - name: Conversation Control(s)
-            href: WebSDK/docs/PTUIControlsConversationControl.md
+            href: WebSDK/docs/PTUIControlsconversationcontrol
         - name: Devices Manager
           items:
           - name: Overview

@@ -45,8 +45,8 @@ description: Table of contents
     - [Manage devices](ManageDevices.md)
     - [Save and restore a snapshot of the Application state](SaveRestoreSnapshot.md)
     - [Switch between video streams across conversations](SwitchConversationVideoStreams.md)
-    - [Use the Skype Web Conversation Control in a web page](UseConversationControl.md)
-      - [Conversation Control](ConversationControl.md)
+    - [Use the Skype Web Conversation Control in a web page](Useconversationcontrol)
+      - [Conversation Control](conversationcontrol)
   - [Release Notes](ReleaseNotes.md)
 
 

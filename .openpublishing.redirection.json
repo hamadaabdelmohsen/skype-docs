@@ -56,7 +56,7 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "Skype/WebSDK/ConversationControl.md",
+            "source_path": "Skype/WebSDK/conversationcontrol",
             "redirect_url": "/skype-sdk/websdk/docs/conversationcontrol",
             "redirect_document_id": false
         },
@@ -386,7 +386,7 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "Skype/WebSDK/PTUIControlsConversationControl.md",
+            "source_path": "Skype/WebSDK/PTUIControlsconversationcontrol",
             "redirect_url": "/skype-sdk/websdk/docs/ptuicontrolsconversationcontrol",
             "redirect_document_id": false
         },
@@ -491,7 +491,7 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "Skype/WebSDK/UseConversationControl.md",
+            "source_path": "Skype/WebSDK/Useconversationcontrol",
             "redirect_url": "/skype-sdk/websdk/docs/useconversationcontrol",
             "redirect_document_id": false
         }
