@@ -27,7 +27,7 @@ namespace Microsoft.SfB.PlatformService.SDK.Samples.ApplicationCore
                             Logger.Instance.Error("[PlatformServiceClientJobHelper] NULL for GetAdhocMeetingResourceInput when job type is JobType.AdhocMeeting!");
                             return null;
                         }
-                        returnJob = new GetAdhocMeetingResouceJob(jobId, instanceId, azureApplication, jobConfig.GetAdhocMeetingResourceInput);
+                        returnJob = new GetAdhocMeetingResourceJob(jobId, instanceId, azureApplication, jobConfig.GetAdhocMeetingResourceInput);
                         break;
                     }
                 default:

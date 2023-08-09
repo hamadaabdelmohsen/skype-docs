@@ -3,11 +3,11 @@ title: Trusted Application API - Public Preview
 description: Discusses the Trusted Application API which is a Rest API that enables developers to build Skype for Business Online back-end communications services for the cloud.
 ---
 # **Trusted Application API (Public Preview)**
-> [!NOTE] 
-> The Trusted Application API will be decommissioned on Nov 20, 2022.
+> [!NOTE]
+> The Trusted Application API was decommissioned on Nov 20, 2022.
 > 
-> [!NOTE] 
-> ~~The Trusted Application API is in Developer Preview and not licensed for production usage~~.  As part of Microsoft’s [intelligent communications vision](https://aka.ms/intelligentcommunicationsblog), we’re building extensible communications capabilities into Teams.  For more Teams Developer information, see [https://aka.ms/TeamsDeveloper](https://aka.ms/TeamsDeveloper).
+> [!NOTE]
+> The Trusted Application API is in Developer Preview and not licensed for production usage. As part of Microsoft’s [intelligent communications vision](https://aka.ms/intelligentcommunicationsblog), we’re building extensible communications capabilities into Teams.  For more Teams Developer information, see [https://aka.ms/TeamsDeveloper](https://aka.ms/TeamsDeveloper).
 
 The **Trusted Application API** is a Rest API that enables developers to build Skype for Business Online back-end communications services for the cloud.
 
@@ -15,14 +15,14 @@ Built on the Skype for Business Online Platform, the **Trusted Application API**
 
 The **Trusted Application API** is our vision of an extensible Skype for Business Online Cloud that meets your demand for powerful, back-end features.  The API aims to provide developer opportunities similar to Skype for Business Server's Unified Communications Managed API (UCMA)...in the cloud. The API enables a cloud-first approach and additional powerful features that aren't available to on-premises Skype for Business Server customers through UCMA.
 
-Key use cases for the **Trusted Application API** include: 
+Key use cases for the **Trusted Application API** include:
 
 - Write SFB Online applications as service endpoints that don't need need a user context or identity. Common service endpoint scenarios include: 
 
-  - **Meeting Management:** 
+  - **Meeting Management:**
      - Schedule or manage on-demand meetings like a contact center application.
      - Create on demand meetings to handle customer calls and add customer service representatives to the meeting.
-  - **Attendant console:** 
+  - **Attendant console:**
      - Voice based call answering and routing bots.
   - **Value Add solutions:**
      - Business-to-consumer Remote Advisor functionality like Telehealth appointments or Banking consults

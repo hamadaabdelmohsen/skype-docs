@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace Microsoft.SfB.PlatformService.SDK.Samples.ApplicationCore
 {
-    public class GetAdhocMeetingResouceJob : PlatformServiceJobBase
+    public class GetAdhocMeetingResourceJob : PlatformServiceJobBase
     {
-        public GetAdhocMeetingResouceJob(string jobId, string instanceId, AzureBasedApplicationBase azureApplication, GetAdhocMeetingResourceInput input)
+        public GetAdhocMeetingResourceJob(string jobId, string instanceId, AzureBasedApplicationBase azureApplication, GetAdhocMeetingResourceInput input)
             : base(jobId, instanceId, azureApplication, input, JobType.GetAnonToken)
         {
         }

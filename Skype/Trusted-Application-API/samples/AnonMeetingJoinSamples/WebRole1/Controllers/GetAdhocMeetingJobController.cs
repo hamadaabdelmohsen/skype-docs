@@ -28,7 +28,7 @@ namespace Microsoft.SfB.PlatformService.SDK.Samples.FrontEnd
                     GetAdhocMeetingResourceInput = input
                 };
                 
-                var job = PlatformServiceClientJobHelper.GetJob(jobId, WebApiApplication.InstanceId, WebApiApplication.AzureApplication, jobConfig) as GetAdhocMeetingResouceJob;
+                var job = PlatformServiceClientJobHelper.GetJob(jobId, WebApiApplication.InstanceId, WebApiApplication.AzureApplication, jobConfig) as GetAdhocMeetingResourceJob;
                 
                 if (job == null)
                 {

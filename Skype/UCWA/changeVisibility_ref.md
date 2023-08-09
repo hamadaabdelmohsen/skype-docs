@@ -96,7 +96,7 @@ The errors below (if any) are specific to this resource. Generic errors that can
 |**Error**|**Code**|**Subcode**|**Description**|
 |:-----|:-----|:-----|:-----|
 |Forbidden|403|None|Forbidden exception which occurs when the logged in user is not enabled for enterprise voice.|
-|Conflict|409|None|Conflict when trying to share a phone resouce that is read only because it is set in Active Directory|
+|Conflict|409|None|Conflict when trying to share a phone resource that is read only because it is set in Active Directory|
 |ServiceFailure|500|CallbackChannelError|The remote event channel is not reachable|
 |Conflict|409|AlreadyExists|The already exists error.|
 |Conflict|409|TooManyGroups|The too many groups error.|
