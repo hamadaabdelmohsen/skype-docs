@@ -5,7 +5,7 @@
   - name: Skype Developer platform
     items:
     - name: Overview
-      href: skypedeveloperplatform
+      href: skypedeveloperplatform.md
     - name: Skype URI development
       items:
       - name: Overview
@@ -65,7 +65,7 @@
         - name: Downloading and running samples
           href: WebSDK/docs/DownloadRunSamples.md
         - name: Skype Web SDK API product keys
-          href: WebSDK/docs/apiproductkeys
+          href: WebSDK/docs/apiproductkeys.md
       - name: Developing applications
         items:
         - name: Overview
@@ -239,7 +239,7 @@
           - name: Overview
             href: WebSDK/docs/PTUIControls.md        
           - name: Conversation Control(s)
-            href: WebSDK/docs/PTUIControlsconversationcontrol
+            href: WebSDK/docs/PTUIControlsconversationcontrol.md
         - name: Devices Manager
           items:
           - name: Overview
