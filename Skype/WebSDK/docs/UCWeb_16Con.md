@@ -19,7 +19,7 @@ description: Table of contents
   - [Getting started](GettingStarted.md)
     - [Release Notes](ReleaseNotes.md)
     - [Downloading and running samples](DownloadRunSamples.md)
-    - [Skype Web SDK API product keys](APIProductKeys.md)
+    - [Skype Web SDK API product keys](apiproductkeys)
 
   - [Developing applications](DevelopApplications.md)
     - [Architecture](Architecture.md)
@@ -31,7 +31,7 @@ description: Table of contents
     - [Retrieve the API entry point and sign in a user](GetAPIEntrySignIn.md)
     - [Show a person's information](ShowPersonInfo.md)
     - [Search for persons and distribution groups](SearchForPersonsAndGroups.md)
-    - [Get a person and listen for availability](ListenForAvailability.md)
+    - [Get a person and listen for availability](listenforavailability)
     - [Start a conversation](StartConversation.md)
     - [Respond to a conversation invitation](RespondToInvitation.md)
     - [Join an existing meeting](JoinMeeting.md)
@@ -45,8 +45,8 @@ description: Table of contents
     - [Manage devices](ManageDevices.md)
     - [Save and restore a snapshot of the Application state](SaveRestoreSnapshot.md)
     - [Switch between video streams across conversations](SwitchConversationVideoStreams.md)
-    - [Use the Skype Web Conversation Control in a web page](UseConversationControl.md)
-      - [Conversation Control](ConversationControl.md)
+    - [Use the Skype Web Conversation Control in a web page](Useconversationcontrol)
+      - [Conversation Control](conversationcontrol)
   - [Release Notes](ReleaseNotes.md)
 
 
